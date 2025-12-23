@@ -18,6 +18,5 @@ public class Rectangle extends Shape{
 	void calArea() {
 		area=width*height;		
 	}
-	
 
 }
