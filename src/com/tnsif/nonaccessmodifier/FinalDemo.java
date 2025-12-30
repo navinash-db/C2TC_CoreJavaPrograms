@@ -9,7 +9,7 @@ final class FinalDemo {
 				+ "var: "+Var);
 	}
 	// you cannot use Final method in Subclass
-	class Child extends FinalDemo{
+	class Child extends FinalDemo {
 		void display() {
 			System.out.println("show the value of "
 					+ "max: "+ Max);
