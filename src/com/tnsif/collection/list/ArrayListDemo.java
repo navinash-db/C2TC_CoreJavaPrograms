@@ -53,11 +53,11 @@ public class ArrayListDemo {
 
 		// Using Generic we can create Homogeneous List
 		List<String> names = new ArrayList<>();
-		names.add("Amit");
-		names.add("Sumit");
-		names.add("Ankit");
-		names.add("Rohit");
-		names.add("Likshit");
+		names.add("Ronaldo");
+		names.add("Navinash");
+		names.add("Messi");
+		names.add("Neymar");
+		names.add("Taylor Swift");
 		//names.add(10); //CTE - Generic are type safety
 		
 		System.out.println("Name List is "+names);
@@ -65,7 +65,7 @@ public class ArrayListDemo {
 		Collections.reverse(names);
 		System.out.println("Reverse Name List is "+names);
 
-		System.out.println("Is \'Ankit\' contains in name list? "+names.contains("Ankit"));
+		System.out.println("Is \'Navinash\' contains in name list? "+names.contains("Navinash"));
 
 		System.out.println("Name List Before Sorting is "+names);
 		Collections.sort(names);
@@ -80,7 +80,7 @@ public class ArrayListDemo {
 		while (i.hasNext()) {
 			String nm = i.next();
 			System.out.println(nm);
-			if (nm.equals("Ankit"))
+			if (nm.equals("Navinash"))
 				i.remove();
 		}
 	
